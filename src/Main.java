@@ -24,6 +24,40 @@ public class Main {
             sc.start();
         }
     }
+    public void cases(){
+        /*
+            if xml
+                if in metaclobs
+                    if content = xml
+                        remove from meta
+                        continue
+                    else if content = null
+                        add _null tag in meta
+                        add _null tag in data
+                        continue
+                else
+                    add to metaclobs as xml
+                    remove from meta
+                    continue
+            if null
+                if in metaclobs
+                    if content = xml
+                        remove from meta
+                        continue
+                    else if content = null
+                        keep in meta
+                        add to data
+                        continue
+                else
+                    add to metaclobs as null
+                    keep in meta
+                    add to data
+                    continue
+            if text
+                add to data
+
+         */
+    }
 }
 
 
